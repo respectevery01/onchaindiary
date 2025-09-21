@@ -166,8 +166,8 @@ export default defineConfig({
           text: '🔒 机密计算技术',
           collapsed: false,
           items: [
-            { text: '介绍 Inco：模块化机密计算网络', link: '/blog/inco/介绍 Inco：模块化机密计算网络' },
-            { text: '什么是全同态加密（FHE）？', link: '/blog/inco/什么是全同态加密（FHE）？' },
+            { text: '介绍 Inco：模块化机密计算网络', link: '/blog/inco/introduction-to-inco-modular-confidential-computing-network' },
+            { text: '什么是全同态加密（FHE）？', link: '/blog/inco/what-is-fhe' },
             { text: '什么是机密代币？', link: '/blog/inco/什么是机密代币？' },
             { text: '如何创建机密代币', link: '/blog/inco/如何创建机密代币' },
             { text: '什么是机密可组合性？', link: '/blog/inco/什么是机密可组合性？' },
