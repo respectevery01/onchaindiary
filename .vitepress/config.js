@@ -262,7 +262,7 @@ export default defineConfig({
           text: '📖 资源',
           collapsed: false,
           items: [
-            { text: '介绍 Delta', link: '/blog/delta/介绍 delta' },
+            { text: '介绍 Delta', link: '/blog/delta/introduction-to-rialo' },
             { text: 'Litepaper', link: '/blog/delta/litepaper' },
             { text: '什么是域', link: '/blog/delta/什么是域' },
             { text: '技术解析 #1：概览', link: '/blog/delta/delta-tech-1' },
