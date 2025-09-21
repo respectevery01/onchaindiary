@@ -38,7 +38,7 @@ Inco Solidity SDK 提供本地开发和测试机密智能合约的工具。
 
 如果您不熟悉 Inco 网络，我们建议按以下顺序学习：
 
-1. **了解概念** - 从[概念指南](../solidity/intro)开始
+1. **了解概念** - 从[概念指南](../solidity/concepts-guide/concepts-guide-introduction)开始
 2. **选择工具** - 根据您的偏好选择 Foundry 或 Hardhat
 3. **实践项目** - 跟随[构建机密代币](./tutorials/build-confidential-token)教程
 4. **深入学习** - 探索[架构设计](../solidity/architecture/overview)
