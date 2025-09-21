@@ -227,12 +227,12 @@ export default defineConfig({
           text: '📚 区块链基础',
           collapsed: false,
           items: [
-            { text: '什么是智能合约？', link: '/blog/altius/什么是智能合约？' },
-            { text: '智能合约与传统合约：关键差异解析', link: '/blog/altius/智能合约与传统合约：关键差异解析' },
-            { text: '区块链与传统数据库对比：信任、控制与透明度指南', link: '/blog/altius/区块链与传统数据库对比：信任、控制与透明度指南' },
-            { text: '区块链中的去中心化是什么？', link: '/blog/altius/区块链中的去中心化是什么？' },
-            { text: '区块链节点详解：类型、功能及工作原理', link: '/blog/altius/区块链节点详解：类型、功能及工作原理' },
-            { text: '公有链与私有链：有何不同？', link: '/blog/altius/公有链与私有链：有何不同？' },
+            { text: '什么是智能合约？', link: '/blog/altius/what-is-smart-contract' },
+            { text: '智能合约与传统合约：关键差异解析', link: '/blog/altius/smart-contract-vs-traditional-contract-key-differences' },
+            { text: '区块链与传统数据库对比：信任、控制与透明度指南', link: '/blog/altius/blockchain-vs-database-trust-control-and-transparency-guide' },
+            { text: '区块链中的去中心化是什么？', link: '/blog/altius/what-is-decentralized' },
+            { text: '区块链节点详解：类型、功能及工作原理', link: '/blog/altius/nodes-explained-types-features-and-workings' },
+            { text: '公有链与私有链：有何不同？', link: '/blog/altius/public-vs-private' },
             { text: '什么是代币经济学？完整指南及其重要性（2025 年）', link: '/blog/altius/what-is-token-economics-complete-guide-and-its-importance-2025' }
           ]
         },
@@ -240,10 +240,10 @@ export default defineConfig({
           text: '⚡ 扩容与架构',
           collapsed: false,
           items: [
-            { text: '区块链可扩展性：三难困境与现代扩容方案', link: '/blog/altius/区块链可扩展性：三难困境与现代扩容方案' },
-            { text: '区块链互操作性：跨链消息传递如何驱动统一的 Web3', link: '/blog/altius/区块链互操作性：跨链消息传递如何驱动统一的 Web3' },
-            { text: '单体链与模块化链：区块链架构的未来', link: '/blog/altius/单体链与模块化链：区块链架构的未来' },
-            { text: 'ZK Rollups 与 Optimistic Rollups 详解', link: '/blog/altius/ZK Rollups 与 Optimistic Rollups 详解' }
+            { text: '区块链可扩展性：三难困境与现代扩容方案', link: '/blog/altius/blockchain-scalability-three-hard-problems-and-modern-scaling-solutions' },
+            { text: '区块链互操作性：跨链消息传递如何驱动统一的 Web3', link: '/blog/altius/blockchain-interoperability-cross-chain-message-passing-how-it-drives-a-unified-web3' },
+            { text: '单体链与模块化链：区块链架构的未来', link: '/blog/altius/single-chain-vs-modular-chain-the-future-of-blockchain-architecture' },
+            { text: 'ZK Rollups 与 Optimistic Rollups 详解', link: '/blog/altius/zk-rollups-vs-optimistic-rollups' }
           ]
         },
       ],
@@ -253,7 +253,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '介绍 Rialo：为现实世界构建的区块链', link: '/blog/rialo/introduction-to-rialo' },
-            { text: 'Rialo 让现实世界资产真正触手可及', link: '/blog/rialo/Rialo 让现实世界资产真正触手可及' }
+            { text: 'Rialo 让现实世界资产真正触手可及', link: '/blog/rialo/rialo-for-real-world-assets' }
           ]
         }
       ],
@@ -262,9 +262,9 @@ export default defineConfig({
           text: '📖 资源',
           collapsed: false,
           items: [
-            { text: '介绍 Delta', link: '/blog/delta/introduction-to-rialo' },
+            { text: '介绍 Delta', link: '/blog/delta/introduction-to-delta' },
             { text: 'Litepaper', link: '/blog/delta/litepaper' },
-            { text: '什么是域', link: '/blog/delta/什么是域' },
+            { text: '什么是域', link: '/blog/delta/what-is-domain' },
             { text: '技术解析 #1：概览', link: '/blog/delta/delta-tech-1' },
             { text: '技术解析 #2：全局法则与域内法则', link: '/blog/delta/delta-tech-2' },
             { text: '技术解析 #3：无缝迁移', link: '/blog/delta/delta-tech-3' }
@@ -274,10 +274,10 @@ export default defineConfig({
           text: '💭 技术思考',
           collapsed: false,
           items: [
-            { text: 'Web 之后是什么', link: '/blog/delta/Web 之后是什么' },
-            { text: '2027 年的金融', link: '/blog/delta/2027 年的金融' },
-            { text: '停止优化链：迈向更远的可验证系统', link: '/blog/delta/停止优化链：迈向更远的可验证系统' },
-            { text: '如何打造加密领域的英伟达', link: '/blog/delta/如何打造加密领域的英伟达' },
+            { text: 'Web 之后是什么', link: '/blog/delta/what-comes-after-web' },
+            { text: '2027 年的金融', link: '/blog/delta/finance-in-2027' },
+            { text: '停止优化链：迈向更远的可验证系统', link: '/blog/delta/stop-optimizing-the-chain-towards-a-farther-verifiable-system' },
+            { text: '如何打造加密领域的英伟达', link: '/blog/delta/how-to-build-an-nvidia-in-cryptography' },
             { text: '从世界计算机到担保机：第一部分', link: '/blog/delta/delta-from-world-computer-to-guaranteed-machine-1' },
             { text: '从世界计算机到担保机：第二部分', link: '/blog/delta/delta-from-world-computer-to-guaranteed-machine-2' },
             { text: '从世界计算机到担保机：第三部分', link: '/blog/delta/delta-from-world-computer-to-guaranteed-machine-3' }
