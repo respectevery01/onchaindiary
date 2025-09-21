@@ -49,6 +49,6 @@ coverage/
 *.lcov
 
 # VitePress
-.temp/
-.cache/
+.vitepress/cache/
+.vitepress/temp/
 .codebuddy/
