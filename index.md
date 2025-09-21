@@ -26,27 +26,3 @@ features:
     details: 紧跟区块链技术发展步伐，定期更新最新的技术文档、项目动态和行业洞察，确保你始终站在技术前沿
 
 ---
-
-## 快速导航
-
-### 🚀 技术文档
-- [Inco 网络](/docs/inco/) - 机密计算区块链开发指南
-- [其他项目](/docs/others/) - 更多区块链项目技术文档
-
-### 📖 精选博客
-- [Inco 博客](/blog/inco/) - 机密计算与隐私技术
-- [Altius 博客](/blog/altius/) - 区块链基础与扩容方案
-- [Delta 博客](/blog/delta/) - 网络架构与技术思考
-- [Rialo 博客](/blog/rialo/) - 现实世界资产应用
-
-### 🌟 热门文章
-- [什么是全同态加密（FHE）？](/blog/inco/什么是全同态加密（FHE）？)
-- [介绍 Delta：共享状态的网络的网络](/blog/delta/介绍 delta)
-- [什么是智能合约？](/blog/altius/什么是智能合约？)
-- [区块链隐私的四个层次](/blog/inco/区块链隐私的四个层次)
-
-### 🔗 项目官网
-- [Inco Network](https://www.inco.org/) - 模块化机密计算网络
-- [Altius](https://altiuslabs.xyz/) - 下一代模块化执行层
-- [Delta](https://delta.network/) - 共享状态的网络的网络
-- [Rialo](https://rialo.io/) - 现实世界资产区块链

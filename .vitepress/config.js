@@ -178,9 +178,9 @@ export default defineConfig({
           text: '🛡️ 隐私与安全',
           collapsed: false,
           items: [
-            { text: '区块链隐私的四个层次', link: '/blog/inco/区块链隐私的四个层次' },
-            { text: '互联网需要 HTTPS——区块链需要加密层', link: '/blog/inco/互联网需要 HTTPS——区块链需要加密层' },
-            { text: '链上加密方案：全同态加密（FHE）与可信执行环境（TEE）有何区别？', link: '/blog/inco/链上加密方案：全同态加密（FHE）与可信执行环境（TEE）有何区别？' }
+            { text: '区块链隐私的四个层次', link: '/blog/inco/blockchain-privacy-four-levels' },
+            { text: '互联网需要 HTTPS——区块链需要加密层', link: '/blog/inco/web-need-https-blockchain-need-encryption-layer' },
+            { text: '链上加密方案：全同态加密（FHE）与可信执行环境（TEE）有何区别？', link: '/blog/inco/onchain-encryption-solutions-full-homomorphic-encryption-and-trusted-execution-environments-what-s-the-difference' }
           ]
         },
         {
@@ -207,11 +207,11 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Circle Research 与 Inco 探索基于加密技术的机密性 ERC20 代币框架', link: '/blog/inco/Circle Research 与 Inco 探索基于加密技术的机密性 ERC20 代币框架' },
-            { text: 'Inco 加入 ERC3643 协会 通过可编程机密技术助推 RWA 发展', link: '/blog/inco/Inco 加入 ERC3643 协会 通过可编程机密技术助推 RWA 发展' },
-            { text: 'Inco 与 Open Zeppelin 和 Zama 联合推出机密代币协会', link: '/blog/inco/Inco 与 Open Zeppelin 和 Zama 联合推出机密代币协会' },
-            { text: 'Inco 与 Tally 合作开发解决方案，实现机密链上治理', link: '/blog/inco/Inco 与 Tally 合作开发解决方案，实现机密链上治理' },
-            { text: 'Inco 与 Toku 宣布采用 cERC20 标准为 W2 雇员提供机密稳定币薪资支付方案', link: '/blog/inco/Inco 与 Toku 宣布采用 cERC20 标准为 W2 雇员提供机密稳定币薪资支付方案' },
-            { text: 'Melee Games 在 Monad 测试网上推出由 Inco 技术驱动的《三分之二游戏》', link: '/blog/inco/Melee Games 在 Monad 测试网上推出由 Inco 技术驱动的《三分之二游戏》' }
+            { text: 'Inco 加入 ERC3643 协会 通过可编程机密技术助推 RWA 发展', link: '/blog/inco/inco-join-erc3643' },
+            { text: 'Inco 与 Open Zeppelin 和 Zama 联合推出机密代币协会', link: '/blog/inco/inco-and-openzeppelin-and-zama-launch-confidential-token-alliance' },
+            { text: 'Inco 与 Tally 合作开发解决方案，实现机密链上治理', link: '/blog/inco/inco-and-tally-launch-confidential-chain-governance' },
+            { text: 'Inco 与 Toku 宣布采用 cERC20 标准为 W2 雇员提供机密稳定币薪资支付方案', link: '/blog/inco/inco-and-toku-launch-confidential-payroll' },
+            { text: 'Melee Games 在 Monad 测试网上推出由 Inco 技术驱动的《三分之二游戏》', link: '/blog/inco/melee-games-launch-3-2-game-on-monad-testnet-with-inco' }
           ]
         }
       ],
@@ -220,7 +220,7 @@ export default defineConfig({
           text: '📖 资源',
           collapsed: false,
           items: [
-            { text: 'Altius 中文白皮书', link: '/blog/altius/Altius 中文白皮书' }
+            { text: 'Altius 中文白皮书', link: '/blog/altius/Altius中文白皮书' }
           ]
         },
         {
@@ -233,7 +233,7 @@ export default defineConfig({
             { text: '区块链中的去中心化是什么？', link: '/blog/altius/区块链中的去中心化是什么？' },
             { text: '区块链节点详解：类型、功能及工作原理', link: '/blog/altius/区块链节点详解：类型、功能及工作原理' },
             { text: '公有链与私有链：有何不同？', link: '/blog/altius/公有链与私有链：有何不同？' },
-            { text: '什么是代币经济学？完整指南及其重要性（2025 年）', link: '/blog/altius/什么是代币经济学？完整指南及其重要性（2025 年）' }
+            { text: '什么是代币经济学？完整指南及其重要性（2025 年）', link: '/blog/altius/what-is-token-economics-complete-guide-and-its-importance-2025' }
           ]
         },
         {
