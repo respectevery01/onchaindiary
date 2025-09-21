@@ -19,7 +19,7 @@ Inco Solidity SDK 提供本地开发和测试机密智能合约的工具。
 
 我们推荐使用基于 [Foundry](https://book.getfoundry.sh/) Solidity 测试的[模板](https://github.com/Inco-fhevm/lightning-rod)。
 
-[开始使用 Foundry →](./tutorials/foundry-guide/setup)
+[开始使用 Foundry →](./tutorials/Foundry-guide/setup)
 
 ### ⚡ 使用 Hardhat
 

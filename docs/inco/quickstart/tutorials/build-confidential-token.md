@@ -9,7 +9,7 @@
 
 Foundry 是一个快速、便携且模块化的以太坊应用开发工具包，用 Rust 编写。
 
-[开始使用 Foundry →](./foundry-guide/setup)
+[开始使用 Foundry →](./Foundry-guide/setup)
 
 ### ⚡ Hardhat
 **推荐给 TypeScript 和测试场景**

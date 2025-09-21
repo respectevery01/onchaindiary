@@ -41,7 +41,7 @@ features:
 
 ### 🌟 热门文章
 - [什么是全同态加密（FHE）？](/blog/inco/什么是全同态加密（FHE）？)
-- [介绍 Delta：共享状态的网络的网络](/blog/delta/介绍%20delta)
+- [介绍 Delta：共享状态的网络的网络](/blog/delta/介绍 delta)
 - [什么是智能合约？](/blog/altius/什么是智能合约？)
 - [区块链隐私的四个层次](/blog/inco/区块链隐私的四个层次)
 

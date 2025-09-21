@@ -41,8 +41,8 @@ Inco 网络是首个通用的机密计算层，为区块链带来了真正的隐
 
 ### 进阶开发者
 1. [架构概述](./solidity/architecture/overview) - 深入理解系统设计
-2. [概念指南](./solidity/concepts-guide/concepts-guide-introduction) - 掌握核心概念
-3. [最佳实践](./solidity/concepts-guide/best-practices) - 优化开发流程
+2. [概念指南](./solidity/concepts_guide/concepts-guide-introduction) - 掌握核心概念
+3. [最佳实践](./solidity/concepts_guide/best-practices) - 优化开发流程
 
 ### 前端开发者
 1. [JS SDK 概述](./js-sdk/) - 了解前端工具

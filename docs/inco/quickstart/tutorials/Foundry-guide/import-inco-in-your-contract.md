@@ -3,6 +3,7 @@
 使用 Inco 库为您的合约启用机密功能
 
 要在合约中开始使用 Inco 功能，只需在 Solidity 文件顶部添加这行代码：
+
 ```solidity
 import {e, ebool, euint256} "@inco/lightning/src/Lib.sol";
 ```
@@ -72,4 +73,4 @@ contract SimpleConfidentialToken {
     }
 }
 ```
-该合约在[概念指南](../../../Solidity/concepts_guide/handles.md)中有深入解释。
+该合约在[概念指南](../../../solidity/concepts-guide/handles.md)中有深入解释。
