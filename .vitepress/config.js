@@ -7,7 +7,6 @@ export default defineConfig({
   head: [
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css' }],
   ],
-  ignoreDeadLinks: true,
   
   vite: {
     css: {
@@ -287,7 +286,8 @@ export default defineConfig({
 
     search: {
       provider: 'local'
-    }
+    },
+    ignoreDeadLinks: true,
   }
 })
 
