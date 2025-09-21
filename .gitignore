@@ -50,5 +50,3 @@ coverage/
 
 # VitePress
 .vitepress/cache/
-.vitepress/temp/
-.codebuddy/
