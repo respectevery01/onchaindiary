@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "npm run docs:dev",
-    "docs:build": "npm run docs:build",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
