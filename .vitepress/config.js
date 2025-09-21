@@ -187,7 +187,7 @@ export default defineConfig({
           text: '🚀 应用场景',
           collapsed: false,
           items: [
-            { text: '30+ 由 Inco 解锁的区块链机密应用场景', link: '/blog/inco/30+ 由 Inco 解锁的区块链机密应用场景' }
+            { text: '30+ 由 Inco 解锁的区块链机密应用场景', link: '/blog/inco/30+由Inco解锁的区块链机密应用场景' }
           ]
         },
         {
@@ -296,7 +296,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Inco-fhevm' }
+      { icon: 'github', link: 'https://github.com/respectevery01/onchaindiary' }
     ],
 
     footer: {
