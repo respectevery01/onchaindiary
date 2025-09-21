@@ -44,7 +44,6 @@ export default defineConfig({
           text: '📖 文档导航',
           items: [
             { text: 'Inco 网络文档', link: '/docs/inco/' },
-            { text: '其他项目文档', link: '/docs/others/' }
           ]
         }
       ],
@@ -139,16 +138,6 @@ export default defineConfig({
           ]
         }
       ],
-
-      '/docs/others/': [
-        {
-          text: '🔮 其他项目',
-          items: [
-            { text: '项目列表', link: '/docs/others/' },
-            { text: '即将添加...', link: '/docs/others/coming-soon' }
-          ]
-        }
-      ],
       '/blog/': [
         {
           text: '📝 博客导航',
@@ -168,10 +157,10 @@ export default defineConfig({
           items: [
             { text: '介绍 Inco：模块化机密计算网络', link: '/blog/inco/introduction-to-inco-modular-confidential-computing-network' },
             { text: '什么是全同态加密（FHE）？', link: '/blog/inco/what-is-fhe' },
-            { text: '什么是机密代币？', link: '/blog/inco/什么是机密代币？' },
-            { text: '如何创建机密代币', link: '/blog/inco/如何创建机密代币' },
-            { text: '什么是机密可组合性？', link: '/blog/inco/什么是机密可组合性？' },
-            { text: '什么是可验证计算？', link: '/blog/inco/什么是可验证计算？' }
+            { text: '什么是机密代币？', link: '/blog/inco/what-are-confidential-tokens' },
+            { text: '如何创建机密代币', link: '/blog/inco/how-to-create-confidential-tokens' },
+            { text: '什么是机密可组合性？', link: '/blog/inco/what-is-confidential-composability' },
+            { text: '什么是可验证计算？', link: '/blog/inco/what-is-verifiable-computation' }
           ]
         },
         {
@@ -187,26 +176,26 @@ export default defineConfig({
           text: '🚀 应用场景',
           collapsed: false,
           items: [
-            { text: '30+ 由 Inco 解锁的区块链机密应用场景', link: '/blog/inco/30+由Inco解锁的区块链机密应用场景' }
+            { text: '30+ 由 Inco 解锁的区块链机密应用场景', link: '/blog/inco/30-inco-unlocked-blockchain-confidential-applications' }
           ]
         },
         {
           text: '📰 项目动态',
           collapsed: false,
           items: [
-            { text: 'Inco 2024 年度总结', link: '/blog/inco/Inco 2024 年度总结' },
-            { text: 'Inco 筹集 450 万美元打造通用机密层', link: '/blog/inco/Inco 筹集 450 万美元打造通用机密层' },
-            { text: 'Inco 完成 500 万美元融资 加速构建区块链隐私层', link: '/blog/inco/Inco 完成 500 万美元融资 加速构建区块链隐私层' },
-            { text: 'Inco Gentry 测试网正式发布', link: '/blog/inco/Inco Gentry 测试网正式发布' },
-            { text: 'Inco 闪电网络已在 Base Sepolia 上线，使开发者能够构建机密应用', link: '/blog/inco/Inco 闪电网络已在 Base Sepolia 上线，使开发者能够构建机密应用' },
-            { text: 'ETH 丹佛活动回顾', link: '/blog/inco/ETH 丹佛活动回顾' }
+            { text: 'Inco 2024 年度总结', link: '/blog/inco/inco-2024-annual-summary' },
+            { text: 'Inco 筹集 450 万美元打造通用机密层', link: '/blog/inco/inco-raised-450-million-to-build-a-universal-confidential-layer' },
+            { text: 'Inco 完成 500 万美元融资 加速构建区块链隐私层', link: '/blog/inco/inco-raise-50-million-to-accelerate-building-blockchain-privacy-layer' },
+            { text: 'Inco Gentry 测试网正式发布', link: '/blog/inco/inco-gentry-testnet-launched' },
+            { text: 'Inco 闪电网络已在 Base Sepolia 上线，使开发者能够构建机密应用', link: '/blog/inco/inco-lightning-network-launched-on-base-sepolia' },
+            { text: 'ETH 丹佛活动回顾', link: '/blog/inco/eth-danver-event-recap' }
           ]
         },
         {
           text: '🤝 合作伙伴',
           collapsed: true,
           items: [
-            { text: 'Circle Research 与 Inco 探索基于加密技术的机密性 ERC20 代币框架', link: '/blog/inco/Circle Research 与 Inco 探索基于加密技术的机密性 ERC20 代币框架' },
+            { text: 'Circle Research 与 Inco 探索基于加密技术的机密性 ERC20 代币框架', link: '/blog/inco/cricle-research-and-inco-explore-encrypted-token-framework-based-on-cryptography' },
             { text: 'Inco 加入 ERC3643 协会 通过可编程机密技术助推 RWA 发展', link: '/blog/inco/inco-join-erc3643' },
             { text: 'Inco 与 Open Zeppelin 和 Zama 联合推出机密代币协会', link: '/blog/inco/inco-and-openzeppelin-and-zama-launch-confidential-token-alliance' },
             { text: 'Inco 与 Tally 合作开发解决方案，实现机密链上治理', link: '/blog/inco/inco-and-tally-launch-confidential-chain-governance' },
@@ -283,15 +272,6 @@ export default defineConfig({
             { text: '从世界计算机到担保机：第三部分', link: '/blog/delta/delta-from-world-computer-to-guaranteed-machine-3' }
           ]
         },
-      ],
-      '/blog/others/': [
-        {
-          text: '🔮 其他博客',
-          items: [
-            { text: '博客列表', link: '/blog/others/' },
-            { text: '即将添加...', link: '/blog/others/coming-soon' }
-          ]
-        }
       ],
     },
 
