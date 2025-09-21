@@ -252,7 +252,7 @@ export default defineConfig({
           text: '🌍 现实世界资产',
           collapsed: false,
           items: [
-            { text: '介绍 Rialo：为现实世界构建的区块链', link: '/blog/rialo/介绍 Rialo：为现实世界构建的区块链' },
+            { text: '介绍 Rialo：为现实世界构建的区块链', link: '/blog/rialo/introduction-to-rialo' },
             { text: 'Rialo 让现实世界资产真正触手可及', link: '/blog/rialo/Rialo 让现实世界资产真正触手可及' }
           ]
         }
@@ -265,9 +265,9 @@ export default defineConfig({
             { text: '介绍 Delta', link: '/blog/delta/介绍 delta' },
             { text: 'Litepaper', link: '/blog/delta/litepaper' },
             { text: '什么是域', link: '/blog/delta/什么是域' },
-            { text: '技术解析 #1：概览', link: '/blog/delta/Delta 技术解析1：概览' },
-            { text: '技术解析 #2：全局法则与域内法则', link: '/blog/delta/Delta 技术解析2：全局法则与域内法则' },
-            { text: '技术解析 #3：无缝迁移', link: '/blog/delta/Delta 技术解析3：无缝迁移' }
+            { text: '技术解析 #1：概览', link: '/blog/delta/delta-tech-1' },
+            { text: '技术解析 #2：全局法则与域内法则', link: '/blog/delta/delta-tech-2' },
+            { text: '技术解析 #3：无缝迁移', link: '/blog/delta/delta-tech-3' }
           ]
         },
         {
@@ -278,9 +278,9 @@ export default defineConfig({
             { text: '2027 年的金融', link: '/blog/delta/2027 年的金融' },
             { text: '停止优化链：迈向更远的可验证系统', link: '/blog/delta/停止优化链：迈向更远的可验证系统' },
             { text: '如何打造加密领域的英伟达', link: '/blog/delta/如何打造加密领域的英伟达' },
-            { text: '从世界计算机到担保机：第一部分', link: '/blog/delta/从世界计算机到担保机：第一部分' },
-            { text: '从世界计算机到担保机：第二部分', link: '/blog/delta/从世界计算机到担保机：第二部分' },
-            { text: '从世界计算机到担保机：第三部分', link: '/blog/delta/从世界计算机到担保机：第三部分' }
+            { text: '从世界计算机到担保机：第一部分', link: '/blog/delta/delta-from-world-computer-to-guaranteed-machine-1' },
+            { text: '从世界计算机到担保机：第二部分', link: '/blog/delta/delta-from-world-computer-to-guaranteed-machine-2' },
+            { text: '从世界计算机到担保机：第三部分', link: '/blog/delta/delta-from-world-computer-to-guaranteed-machine-3' }
           ]
         },
       ],
