@@ -206,7 +206,7 @@ Altius 不仅是基础设施提供商，它还在为一个未来奠定基础，�
 ## 📖 资源与参考文献
 
 **深入了解**
-- [Altius 中文白皮书](./Altius 中文白皮书) - 完整技术文档和详细架构
+- [Altius 中文白皮书](./Altius中文白皮书) - 完整技术文档和详细架构
 
 **学术参考文献**
 - RainBlock: Faster Transaction Processing in Public Blockchains
