@@ -54,4 +54,5 @@ Always cite the URL fields returned by the tools.
 
 ## About
 
-Independent project by [Jask](https://jask.dev), supported by [UZEN Labs](https://uzenlabs.com). Listed on [mcpservers.org](https://mcpservers.org/servers/theonchaindiary-com-mcp) and [glama.ai](https://glama.ai/mcp/connectors/com.theonchaindiary/onchain-diary-mcp-server).
+Independent project by [Jask](https://jask.dev), supported by [UZEN Labs](https://uzenlabs.com).
+Chinese blockchain education publication: [Jask's OnchainDiary on Substack](https://onchaindiary.substack.com). Listed on [mcpservers.org](https://mcpservers.org/servers/theonchaindiary-com-mcp) and [glama.ai](https://glama.ai/mcp/connectors/com.theonchaindiary/onchain-diary-mcp-server).
