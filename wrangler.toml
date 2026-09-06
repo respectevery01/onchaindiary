@@ -1,0 +1,7 @@
+name = "onchaindiary-org"
+main = "src/index.js"
+compatibility_date = "2026-08-28"
+routes = [
+  { pattern = "onchaindiary.org", custom_domain = true },
+  { pattern = "www.onchaindiary.org", custom_domain = true }
+]
