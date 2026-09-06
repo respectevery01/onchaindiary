@@ -1,12 +1,22 @@
 // onchaindiary.org — brand landing page (indexable, EN default + client-side ZH toggle) + 301 everything else to theonchaindiary.com
 const SITE = "https://theonchaindiary.com";
 
+// brand favicon (same asset as theonchaindiary.com), inlined so the worker serves it with zero subrequests
+const faviconSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="8" fill="#0B7B5E"/>
+  <rect x="4" y="3" width="16" height="11" rx="2.5" fill="#fff" opacity="0.22"/>
+  <rect x="12" y="18" width="16" height="11" rx="2.5" fill="#fff"/>
+  <rect x="17" y="22" width="7" height="1.4" rx="0.7" fill="#0B7B5E"/>
+  <rect x="17" y="25" width="4.5" height="1.4" rx="0.7" fill="#0B7B5E" opacity="0.55"/>
+</svg>`;
+
 const html = `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Onchain Diary — Web3 Safety Education</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <meta name="description" content="Onchain Diary is an independent Web3 safety education site: 96 deep-dive articles on wallet drainers, phishing and smart-contract risks, plus a 220-term glossary in English and Chinese. Full site: theonchaindiary.com">
 <link rel="canonical" href="https://onchaindiary.org/">
 <meta property="og:title" content="Onchain Diary — Web3 Safety Education">
@@ -14,7 +24,10 @@ const html = `<!doctype html>
 <meta property="og:url" content="https://onchaindiary.org/">
 <meta property="og:type" content="website">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"Onchain Diary","alternateName":"链上日记","url":"https://onchaindiary.org/","description":"Independent Web3 safety education — attack-method deep dives and a bilingual glossary.","publisher":{"@type":"Organization","name":"UZEN Labs","url":"https://uzenlabs.com"},"sameAs":["https://theonchaindiary.com/","https://uzenlabs.com/","https://github.com/respectevery01"]}
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://theonchaindiary.com/#organization","name":"Onchain Diary","alternateName":["OnchainDiary","onchaindiary","链上日记"],"url":"https://theonchaindiary.com/","logo":"https://theonchaindiary.com/og/default.png","description":"Independent Web3 safety education — attack-method deep dives and a bilingual glossary.","sameAs":["https://onchaindiary.org/","https://onchaindiary.substack.com","https://paragraph.com/@onchaindiary","https://x.com/jask_don","https://github.com/respectevery01","https://uzenlabs.com"],"founder":{"@type":"Person","name":"Jask","url":"https://jask.dev","sameAs":["https://x.com/jask_don","https://github.com/respectevery01"]},"parentOrganization":{"@type":"Organization","name":"UZEN Labs","url":"https://uzenlabs.com","sameAs":["https://x.com/uzenlabs"]}},
+{"@type":"WebSite","@id":"https://onchaindiary.org/#website","url":"https://onchaindiary.org/","name":"Onchain Diary","alternateName":"链上日记","inLanguage":["en","zh-CN"],"publisher":{"@id":"https://theonchaindiary.com/#organization"}}
+]}
 </script>
 <style>
   :root { --ink:#1c1917; --paper:#faf7f0; --green:#0B7B5E; --line:#e7e0d5; --muted:#6b6257; }
@@ -112,6 +125,8 @@ export default {
     if (pathname === "/robots.txt") return new Response(robots, { headers: { "content-type": "text/plain" } });
     if (pathname === "/sitemap.xml") return new Response(sitemap, { headers: { "content-type": "application/xml" } });
     if (pathname === "/" + INDEXNOW_KEY + ".txt") return new Response(INDEXNOW_KEY, { headers: { "content-type": "text/plain" } });
+    if (pathname === "/favicon.svg" || pathname === "/favicon.ico")
+      return new Response(faviconSvg, { headers: { "content-type": "image/svg+xml", "cache-control": "public, max-age=86400" } });
     // everything else: 301 to the main site, path preserved
     return Response.redirect(SITE + pathname + (new URL(request.url).search || ""), 301);
   },
