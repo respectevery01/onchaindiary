@@ -4,6 +4,16 @@
 
 Website: **[theonchaindiary.com](https://theonchaindiary.com)**
 
+## Agent Skill
+
+Prefer a one-line install over configuring MCP? The same knowledge base ships as an installable agent skill:
+
+    npx skills add respectevery01/onchaindiary
+
+Installs `onchain-diary`: it teaches any agent when to query this site (crypto scams, wallet drainers, phishing signatures, fake airdrops, fake job offers, recovery fraud) and how — MCP search first, llms.txt fallback, citation rules, and a hard no-fabrication clause for on-chain forensics data.
+
+Works with Claude Code, Cursor, Codex, and anything that reads SKILL.md. Skill source lives in [`skills/onchain-diary/`](skills/onchain-diary/).
+
 ## MCP Server
 
 The full knowledge base is exposed through the Model Context Protocol — search and read it inside Claude, Cursor, Windsurf or any MCP-capable client.
